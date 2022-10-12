@@ -9,8 +9,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    
 
     <link rel="stylesheet" href="../../css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="../../css/animate.css">
@@ -28,13 +30,11 @@
 
     <title>Sorteio - Sua Sorte</title>
 </head>
-<body class="bg-dark">
-    <div class="return-page position-relative">
-      <a href="https://diegodev.tk"><div class="h4 text-dark rounded-pill bg-danger bg-gradient position-absolute border border-1 ">Voltar para diegodev.tk</div></a>
+<body class="bg-dark container-fluid mx-0 my-0">
+    <div class="return-page position-relative container-fluid">
+      <a href="https://diegodev.tk"><div class="h4 text-dark rounded-pill mt-1 bg-secondary px-2 bg-gradient position-absolute border border-2">Voltar para diegodev.tk</div></a>
     </div>  
-    <div class="bold text-center text-danger"> 
-        <h1>Sua Sorte!</h1>
-    </div>
+    <div class="text-center text-danger pt-5"><span class="h1"> Sorteio</span>
 
 
 <form action="index.php?sorteio" method="post" class="text-center center bg-primary rounded col-md-3 offset-md-6 border border-danger rounded">
@@ -74,10 +74,10 @@
     } 
 
 ?>
-<br><br>
 <p class="text-danger text-center">
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by Diego M. Gouveia
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="bi-heart-fill"></i> by Diego M. Gouveia, see code in <a href="https://github.com/DiegoMGouveia/sorteio" target="_blank" rel="diegodev.tk">GitHub</a> 
   </p>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
